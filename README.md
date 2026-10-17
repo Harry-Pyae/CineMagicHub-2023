@@ -2,6 +2,8 @@
 
 A static movie-channel landing page I built in 2023 while learning HTML, CSS and Bootstrap. It's a front-end only project: no backend, no JavaScript of my own, just layout and styling.
 
+> The code was written in 2023 but only pushed to GitHub in 2026, so the commit dates are later than the actual work.
+
 ## What's on the page
 
 - **Navbar** with the CineMagicHub logo, a Movies dropdown (2023 / 2022 / 2021), About Us, a search box and a Guest menu (Log In / Sign Up)
