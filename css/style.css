@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width:3880px) {
+    #nav-logo {
+        width: 33px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/background2.png');
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    .download-btn {
+        border: 1px solid #fff !important;
+        background: transparent !important;
+    }
+    .fa {
+        margin: 0px 8px;
+    }
+    .movie-image {
+        box-shadow: -4px 4px 5px 0 #000;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .series img {
+        width: 85%;
+        margin-top: 15px;
+        box-shadow: -4px 4px 5px 0 #000;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .series img:hover {
+        transform: translateY(-10px);
+    }
+    p {
+        color: aliceblue;
+        text-align: left;
+    }
+}
+
+@media (max-width:768px) {
+    .power {
+        display: none;
+    }
+    #h-text {
+        display: none;
+    }
+    #cap {
+        display: none;
+    }
+    #im {
+        display: none;
+    }
+    #thor {
+        display: none;
+    }
+    #hulk {
+        display: none;
+    }
+    #bw {
+        display: none;
+    }
+    #hawk {
+        display: none;
+    }
+}
